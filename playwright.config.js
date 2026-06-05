@@ -24,7 +24,7 @@ export default defineConfig({
   ['list'],
   ['junit', { outputFile: 'results.xml' }],
   ['json', { outputFile: 'results.json' }],
-  ['allure-playwright', { outputFolder: 'my-allure-results' }],
+  ['allure-playwright', { outputFolder: 'allure-results' }],
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   timeout: 2000000,
